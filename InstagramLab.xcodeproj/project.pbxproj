@@ -40,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68AF8AC91C533DF900C5B2D0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68F42DBF1C52F9AE00AD8721 /* PhotosViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		68F42DA11C52F94100AD8721 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +69,7 @@
 		68F42DAC1C52F94100AD8721 /* InstagramLab */ = {
 			isa = PBXGroup;
 			children = (
-				68F42DBF1C52F9AE00AD8721 /* PhotosViewController.swift */,
+				68AF8AC91C533DF900C5B2D0 /* ViewControllers */,
 				68F42DAD1C52F94100AD8721 /* AppDelegate.swift */,
 				68F42DB11C52F94200AD8721 /* Main.storyboard */,
 				68F42DB41C52F94200AD8721 /* Assets.xcassets */,
@@ -323,6 +331,7 @@
 			baseConfigurationReference = B7501486A5AC6A0091349538 /* Pods-InstagramLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = InstagramLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heydylan.InstagramLab;
@@ -335,6 +344,7 @@
 			baseConfigurationReference = 35AB726C9C766E03D19249D2 /* Pods-InstagramLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = InstagramLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heydylan.InstagramLab;
